@@ -2,7 +2,7 @@ version: '3'
 
 services:
   ubuntu:
-    image: gnuhub/10004-ubuntu-lts-2204-docker-1002001-base-min:latest
+    image: gnuhub/10004-ubuntu-lts-2204-docker-1002001-base-min:1001001-rootfs-min
     ports:
       - "10322:22"
     volumes:

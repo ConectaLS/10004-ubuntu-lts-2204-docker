@@ -14,8 +14,8 @@ ssh-keygen -f "/home/runner/.ssh/known_hosts" -R "github.com"
 ssh-keyscan "github.com" >> /home/runner/.ssh/known_hosts
 cat /home/runner/.ssh/known_hosts
 
-git config --global user.email "gnuhub@gmail.com"
-git config --global user.name "gnuhub"
+git config --global user.email "gamersextreme7@gmail.com"
+git config --global user.name "ConectaLS"
 
 which podman
 podman --version
